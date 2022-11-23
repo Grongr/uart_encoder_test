@@ -216,7 +216,6 @@ int main(void)
   HAL_UART_Receive_IT(&huart8, (uint8_t*)message, COMMAND_LENGTH);
 #endif*/
 
-  //HAL_ADCEx_Calibration_Start(&hadc1);
   HAL_Delay(100);
 
   uart_init(&huart8);

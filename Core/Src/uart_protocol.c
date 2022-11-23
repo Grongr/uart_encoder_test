@@ -49,7 +49,7 @@ UARTCommands read_command(char* message) {
 
 	if (!strcmp(message, "SETZERO")) return SetZero;
 
-	if (!strsmp(message, "CLBRADC")) return ClbrADC;
+	if (!strcmp(message, "CLBRADC")) return ClbrADC;
 
 	return CMError;
 }
