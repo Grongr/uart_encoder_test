@@ -1,0 +1,3 @@
+../Core/Src/uart_protocol.c:3:6:uart_init	88	static
+../Core/Src/uart_protocol.c:15:6:uart_test	144	static
+../Core/Src/uart_protocol.c:40:14:read_command	16	static
